@@ -1,0 +1,9 @@
+﻿License type: BUSINESS
+Product: Construct 2
+Licensed to: xunrealx
+Email: xunrealx@kat.cr
+Comment: With best wishes from Figgler [mrfiggler@gmail.com]
+Timestamp: 1459617558
+Hash: 52EFB103A3E608B20A0C0921238F11FC99F75AB9369BC9
+
+This is PRIVATE license. Please TURN OFF "UPDATE CHECKING" in C2 preferences BEFORE USE!!!
