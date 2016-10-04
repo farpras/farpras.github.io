@@ -192,6 +192,19 @@ a {
     padding-top: 0px;
 }
 
+.mainlink {
+    background-color: #e84e3c;
+    color: #fff;
+    padding: 5px;
+    margin: 0px;
+    max-width: 200px;
+}
+
+.mainlink:hover {
+    background-color: #fc7f7e;
+}
+
+
 .shout {
     margin: 3px;
     padding: 5px;
