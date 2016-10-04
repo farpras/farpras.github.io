@@ -137,7 +137,7 @@ a {
 }
 
 #tabbar a:hover {
-    background: #4684be;
+    background: #fb6d5e;
 }
 
 .selected {
@@ -153,19 +153,19 @@ a {
 
 #tabbar {
     position: relative;
-    background: #b3daea;
+    background: #e84e3c;
     height: 34px;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    border-bottom: 1px solid #2566a3;
+    border-bottom: 0px solid #c63c1a;
     margin-bottom: 0px;
 }
 
 #tabbar a {
-    color: #b3daea;
+    color: #ffffff;
     display: block;
-    background: #2566a3;
+    background: #fc8f7f;
     height: 28px;
     text-align: center;
     box-sizing: border-box;
@@ -175,7 +175,7 @@ a {
     margin-left: 2%;
     margin-top: 6px;
     line-height: 28px;
-    border: 1px solid #2566a3;
+    border: 0px solid #c63c1a;
     text-decoration: none;
     float: left;
     overflow: hidden;
@@ -183,8 +183,8 @@ a {
 }
 
 #tabbar a.selected {
-    background: #fff;
-    border-bottom: 1px solid #fff;
+    background: #e84e3c;
+    border-bottom: 0px solid #fff;
     overflow: hidden;
     font-weight: bold;
     color: #282828;
