@@ -8,7 +8,7 @@ logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://taylantatli.github.io/Moon
+url:                https://farpras.github.io/test
 
 # Jekyll
 permalink:          /:title/
@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   taylantatli
+disqus_shortname:   farpras
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -38,21 +38,21 @@ disqus_shortname:   taylantatli
   #ad-slot:
 #bing-verify:
 #email:
-twitter:            username
+twitter:            farpras
 facebook:           username
-github-url:         username
+github-url:         http://farpras.github.io
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-instagram:          username
+instagram:          farpras
 #lastfm:            username
-#tumblr:            username
+tumblr:             farpras
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+steam:              farpras
 #dribbble:          username
-#youtube:           username
+youtube:            farpras
 #youtube-channel:   channel
 #soundcloud:        username
 #weibo:             username
@@ -70,7 +70,7 @@ gems:
   - jekyll-gist
 
 jekyll-mentions:
-    base_url: https://github.com
+    base_url: https://farpras.github.com
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
