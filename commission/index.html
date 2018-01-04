@@ -1,29 +1,206 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="../styles.css" />
-    <title>Commissions / farpras</title>
-	<script type="text/javascript">
-        	window.location.href = "http://commission.farpras.xyz"
-    	</script>
-</head>
+  <title>farpras / Commission</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, minimal-ui" />
 
+  <link rel="icon" 
+      type="http://farpras.xyz/image/png" 
+      href="http://farpras.xyz/img/farpras.png" />
+
+  <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="//code.jquery.com" />
+
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="http://farpras.xyz/animate.min.css" />
+  <link rel="stylesheet" href="http://farpras.xyz/style.css" />
+</head>
 <body>
-    <div style="text-align: center;">
-        <a href="http://farpras.github.io/"><img src="../img/farpras.png" width="70" style="padding-top: 10px; padding-bottom: 10px;" /></a>
-    </div>
-    <center>
-	    Redirecting to <a href='http://commission.farpras.xyz'>http://commission.farpras.xyz</a>.<br/>
-	    <!--
-    <div id="new">
-        <div style="text-align: center; padding: 2%">
-            Hello, I'm <b>farpras</b> (stylized as all lowercase). Thanks for checking out my commission page.<br /><br />
-            Commission Status: <b style="color: green;">OPEN</b>
-        </div>
-    </div>
+<header class="site__header island">
+  <div class="wrap">
+    <span id="animationSandbox" style="display: block;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL8mxPjSE1593f7I4UI1G_AKpiPuAL5QkT" frameborder="0" gesture="media" allowfullscreen></iframe><br /><br />
+        Please contact me on Twitter (<b><a href="http://twitter.com/farpras">http://twitter.com/farpras</a></b>) or email me at <b><a href="mailto:farpras28@outlook.com">farpras28@outlook.com</a></b> for commission and don't hesitate to ask about anything. And also please check my YouTube channel (<b><a href="http://www.youtube.com/user/FarPras">http://www.youtube.com/user/FarPras</a></b>) for example works.
+      <!-- <img src="img/ori.gif" width="250px" /> -->
+      <!-- <h1 class="site__title mega">farpras.xyz</h1> -->
+    </span>
+    <!-- <span class="beta subhead">Just like the others, but better!</span> -->
+  </div>
+</header><!-- /.site__header -->
+
+<main class="site__content island" role="content">
+  <div class="wrap">
+    
+    <!-- 
+    <iframe src="https://embed.spotify.com/?uri=spotify:track:3scxll1T6EOXWTyFQLrDzt&view=coverart" width="300" height="80" frameborder="0" allowtransparency="true"></iframe><br/>
+    <a href="https://geo.itunes.apple.com/us/album/natural-world-order/id1223940922?i=1223940929&mt=1&app=music" style="display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/id-id/music-lrg.svg) no-repeat;width:110px;height:40px;background-size:contain;"></a>
+    -->
+
+    <hr />
+    <p class="meta"><a href="http://farpras.xyz">Home</a> &middot; <a href="http://music.farpras.xyz">Music</a> &middot; <a href="http://farpras.xyz/beepbox">BeepBox</a> &middot; <a href="https://twitter.com/farpras">Twitter</a> &middot; <a href="mailto:farpras28@outlook.com">farpras28@outlook.com</a></p>
+    <p><small>"You can love your country without having to love your government!"<br/>- Anonymous</small></p>
+  </div>
+</main><!-- /.site__content -->
+
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script>
+  function testAnim(x) {
+    $('#animationSandbox').removeClass().addClass(x + ' animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+      $(this).removeClass();
+    });
+  };
+
+  $(document).ready(function(){
+    $('.js--triggerAnimation').click(function(e){
+      e.preventDefault();
+      var anim = $('.js--animations').val();
+      testAnim(anim);
+    });
+
+    $('.js--animations').change(function(){
+      var anim = $(this).val();
+      testAnim(anim);
+    });
+  });
+
+</script>
+
+<!--
+
+<form>
+      <select class="input input--dropdown js--animations">
+        <optgroup label="Attention Seekers">
+          <option value="bounce">bounce</option>
+          <option value="flash">flash</option>
+          <option value="pulse">pulse</option>
+          <option value="rubberBand">rubberBand</option>
+          <option value="shake">shake</option>
+          <option value="swing">swing</option>
+          <option value="tada">tada</option>
+          <option value="wobble">wobble</option>
+          <option value="jello">jello</option>
+        </optgroup>
+
+        <optgroup label="Bouncing Entrances">
+          <option value="bounceIn">bounceIn</option>
+          <option value="bounceInDown">bounceInDown</option>
+          <option value="bounceInLeft">bounceInLeft</option>
+          <option value="bounceInRight">bounceInRight</option>
+          <option value="bounceInUp">bounceInUp</option>
+        </optgroup>
+
+        <optgroup label="Bouncing Exits">
+          <option value="bounceOut">bounceOut</option>
+          <option value="bounceOutDown">bounceOutDown</option>
+          <option value="bounceOutLeft">bounceOutLeft</option>
+          <option value="bounceOutRight">bounceOutRight</option>
+          <option value="bounceOutUp">bounceOutUp</option>
+        </optgroup>
+
+        <optgroup label="Fading Entrances">
+          <option value="fadeIn">fadeIn</option>
+          <option value="fadeInDown">fadeInDown</option>
+          <option value="fadeInDownBig">fadeInDownBig</option>
+          <option value="fadeInLeft">fadeInLeft</option>
+          <option value="fadeInLeftBig">fadeInLeftBig</option>
+          <option value="fadeInRight">fadeInRight</option>
+          <option value="fadeInRightBig">fadeInRightBig</option>
+          <option value="fadeInUp">fadeInUp</option>
+          <option value="fadeInUpBig">fadeInUpBig</option>
+        </optgroup>
+
+        <optgroup label="Fading Exits">
+          <option value="fadeOut">fadeOut</option>
+          <option value="fadeOutDown">fadeOutDown</option>
+          <option value="fadeOutDownBig">fadeOutDownBig</option>
+          <option value="fadeOutLeft">fadeOutLeft</option>
+          <option value="fadeOutLeftBig">fadeOutLeftBig</option>
+          <option value="fadeOutRight">fadeOutRight</option>
+          <option value="fadeOutRightBig">fadeOutRightBig</option>
+          <option value="fadeOutUp">fadeOutUp</option>
+          <option value="fadeOutUpBig">fadeOutUpBig</option>
+        </optgroup>
+
+        <optgroup label="Flippers">
+          <option value="flip">flip</option>
+          <option value="flipInX">flipInX</option>
+          <option value="flipInY">flipInY</option>
+          <option value="flipOutX">flipOutX</option>
+          <option value="flipOutY">flipOutY</option>
+        </optgroup>
+
+        <optgroup label="Lightspeed">
+          <option value="lightSpeedIn">lightSpeedIn</option>
+          <option value="lightSpeedOut">lightSpeedOut</option>
+        </optgroup>
+
+        <optgroup label="Rotating Entrances">
+          <option value="rotateIn">rotateIn</option>
+          <option value="rotateInDownLeft">rotateInDownLeft</option>
+          <option value="rotateInDownRight">rotateInDownRight</option>
+          <option value="rotateInUpLeft">rotateInUpLeft</option>
+          <option value="rotateInUpRight">rotateInUpRight</option>
+        </optgroup>
+
+        <optgroup label="Rotating Exits">
+          <option value="rotateOut">rotateOut</option>
+          <option value="rotateOutDownLeft">rotateOutDownLeft</option>
+          <option value="rotateOutDownRight">rotateOutDownRight</option>
+          <option value="rotateOutUpLeft">rotateOutUpLeft</option>
+          <option value="rotateOutUpRight">rotateOutUpRight</option>
+        </optgroup>
+
+        <optgroup label="Sliding Entrances">
+          <option value="slideInUp">slideInUp</option>
+          <option value="slideInDown">slideInDown</option>
+          <option value="slideInLeft">slideInLeft</option>
+          <option value="slideInRight">slideInRight</option>
+
+        </optgroup>
+        <optgroup label="Sliding Exits">
+          <option value="slideOutUp">slideOutUp</option>
+          <option value="slideOutDown">slideOutDown</option>
+          <option value="slideOutLeft">slideOutLeft</option>
+          <option value="slideOutRight">slideOutRight</option>
+          
+        </optgroup>
+        
+        <optgroup label="Zoom Entrances">
+          <option value="zoomIn">zoomIn</option>
+          <option value="zoomInDown">zoomInDown</option>
+          <option value="zoomInLeft">zoomInLeft</option>
+          <option value="zoomInRight">zoomInRight</option>
+          <option value="zoomInUp">zoomInUp</option>
+        </optgroup>
+        
+        <optgroup label="Zoom Exits">
+          <option value="zoomOut">zoomOut</option>
+          <option value="zoomOutDown">zoomOutDown</option>
+          <option value="zoomOutLeft">zoomOutLeft</option>
+          <option value="zoomOutRight">zoomOutRight</option>
+          <option value="zoomOutUp">zoomOutUp</option>
+        </optgroup>
+
+        <optgroup label="Specials">
+          <option value="hinge">hinge</option>
+          <option value="rollIn">rollIn</option>
+          <option value="rollOut">rollOut</option>
+        </optgroup>
+      </select>
+
+      <button class="butt js--triggerAnimation">Animate it</button>
+    </form>
+
 -->
+
+</body>
+</html>
+
+
+	<!-- 
     </center>
-	<!--
     <center>
     <div class="b">
         <center>Portfolio</center>
@@ -131,24 +308,23 @@
     	</div>
     	<div style="text-align: left; padding-left: 5%; padding-bottom: 2%">
     	- Stems* render in wav format: <font color="green"><b>+USD 10,00</b></font><br />
-    	- Project File* (REAPER .RPP): <font color="green"><b>+USD 25,00</b></font><br /><br />
+    	- Project File* (REAPER 5): <font color="green"><b>+USD 25,00</b></font><br /><br />
     	<i>*<b>Stems</b>: each instrument of a song rendered into separated tracks.<br />
-    	*Project File is in RPP format that created and can be opened in REAPER 5. And you need to have all the plugins that I use in the project to make it works and sounds exactly like the rendered track. Not recommended if you didn't know how to use REAPER or music producing in general.</i>
+    	*Project File is in RPP format that created and can be opened in REAPER 5 (or latest version). And you need to have all the plugins that I use in the project in order to make it sounds exactly like the track that I've rendered for you. I recommend get the Stems render instead if you didn't know how to use REAPER or music producing in general.</i>
     	</div>
     </div>
     </center>
     <center>
     <div id="new">
         <div style="text-align: center; padding: 2%">
-            <b>Also Important</b>
+            <b>Other Infos</b>
         </div>
         <div style="text-align: left; padding-left: 5%; padding-bottom: 2%">
         - Commission request can be Anime/Game/Movie soundtracks, Japanese musics, or other musics in general.<br />
         - My arrangements are mostly EDM oriented, such as Electronic, House-ish, Synthpop or most JPop Idol's arrangements.<br />
         - I don't accept any arrangement request in specific genre unless for genre that I'm capable of.<br />
         - I don't accept Metal/Rock arrangement anymore.<br />
-        - I don't accept arrangement that has complex piano instrument.<br />
-        - Payment should be done after I sent over the finished track preview.
+        - I don't accept arrangement that has complex piano instrument.
         </div>
     </div>
     </center>
@@ -166,7 +342,7 @@
     					If you're interested or have any questions, please contact me at <a href="mailto:farpras28@outlook.com">farpras28@outlook.com</a> or Twitter <a href="http://twitter.com/farpras">@farpras</a> :)
     				</td>
     				<td width="50%" align="center">
-    					Currently, I only accept Payment through PayPal at <a href="mailto:farpras28@outlook.com">farpras28@outlook.com</a> or <a href="http://paypal.me/farpras28">http://paypal.me/farpras28</a> and all payment should be made after I send over the preview of finished track.
+    					Currently, I only accept Payment through PayPal at <a href="mailto:farpras28@outlook.com">farpras28@outlook.com</a> or <a href="http://paypal.me/farpras28">http://paypal.me/farpras28</a>.
     				</td>
         		</tr>
        		</table>
@@ -184,7 +360,7 @@
 		</script></center>
     </div>
     </center>
--->
+	-->
 </body>
 
 </html>
