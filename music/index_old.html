@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music / farpras</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="shortcut icon" src="http://farpras.xyz/img/farpras.png" />
+  <script type="text/javascript" src="search.js"></script>
+</head>
+<body>
+<p style="margin-left: 20px;">
+  <img src="http://farpras.xyz/img/shit.gif"><br/>
+  <b>How to download?</b> Just click on the file name or right click then save link as.<br/>
+  You can also support me on <a href="http://farpras.bandcamp.com">Bandcamp</a> for high quality uncompressed wav tracks.<br/>
+  And please read the <a href="http://farpras.github.io/music/terms.html"><b>Terms of use</b></a>.
+</p>
+<font style="margin-left: 20px;">Search:<br />
+<input type="text" id="myInput" onkeyup="musicSearch()" placeholder="Search for anime, track title, or artist name.." width="33" height="10">
+
+<!--
+<ul id="myUL">
+  <li><a href="#" class="header">A</a></li>
+  <li><a href="#">Adele</a></li>
+  <li><a href="#">Agnes</a></li>
+
+  <li><a href="#" class="header">B</a></li>
+  <li><a href="#">Billy</a></li>
+  <li><a href="#">Bob</a></li>
+
+  <li><a href="#" class="header">C</a></li>
+  <li><a href="#">Calvin</a></li>
+  <li><a href="#">Christina</a></li>
+  <li><a href="#">Cindy</a></li>
+</ul>
+-->
+
+<ul id="myMusic">
+  <li>
+      <a href="http://farpras.github.io/files/music/TLDK_-_Never_Say_Never.mp3">THREE LIGHTS DOWN KINGS - NEVER SAY NEVER (Durarara x2 Shou ED)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/nano.RIPE_Nanairo_Biyori.zip">nano.RIPE - Nanairo Biyori (Non Non Biyori OP)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/Kiznaiver_OP.zip">Boom Boom Satellites - Lay Your Hands on Me (Kiznaiver OP)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/Gakusen_Toshi_Asterisk_S2_OP.zip">Shiena Nishizawa - The Asterisk War (Gakusen Toshi Asterisk S2 OP)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/Boku_no_Hero_Academia_OP.zip">Porno Graffitti - THE DAY (Boku no Hero Academia OP)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/Naruto_OP19.zip">ASIAN KUNG-FU GENERATION - Blood Circulator (Naruto Shippuden OP 19)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/Rezero_OP.zip">Konomi Suzuki - Redo (Re:Zero OP)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/Tanaka_kun_wa_Itsumo_Kedaruge_OP.zip">Unlimited tone - Utatane Sunshine (Tanaka-kun wa Itsumo Kedaruge OP)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/Naruto_OP16.zip">KANA-BOON - Silhouette (Naruto Shippuden OP 16)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/One_Punch_Man_OP.zip">JAM Project - THE HERO (One Punch Man OP)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/Burn_the_Disco_Floor_with_Your_2_step.mp3">Fear, and Loathing in Las Vegas - Burn the Disco Floor with Your "2-step"!!  (Cover)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/bungou_stray_dogs_op.zip">GRANRODEO - TRASH CANDY (Bungou Stray Dogs OP)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/New_Game_OP.zip">fourfolium - SAKURA Skip (New Game! OP)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/Tales_of_Zestiria_The_X_OP.zip">FLOW - Kaze no Uta (Tales of Zestiria the X OP)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/Qualidea_Code_OP.zip">LiSA - Brave Freak Out (Qualidea Code OP)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/farpras_Evolution_Retake.mp3">Fear, and Loathing in Las Vegas - Evolution [Retake] (Cover)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/Believe_Yourself.mp3">Fear, and Loathing in Las Vegas - Believe Yourself (Cover)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/Konobi_OP.zip">Nana Mizuki - STARTING NOW! (Kono Bijutsubu ni wa Mondai ga Aru! OP)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/Servamp_OP.zip">OLDCODEX - Deal with (Servamp OP)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/baka_op.zip">Aso Natsuko - Perfect-area Complete (Baka to Test to Shoukanjuu OP)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/yuri_on_ice_OP.zip">Dean Fujioka - History Maker (Yuri!!! on Ice OP)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/yuri_on_ice_ed.zip">Yuri!!! on ICE ft. w.hatano - You Only Live Once (Yuri!!! on Ice ED)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/3gatsu_no_Lion_OP.zip">BUMP OF CHICKEN - Answer (3-gatsu no Lion OP)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/yuri_on_ice_ED_full.zip">Yuri!!! on ICE ft. w.hatano - You Only Live Once - FULL VERSION (Yuri!!! on Ice ED)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/yuri_on_ice_op_full.zip">Dean Fujioka - History Maker - FULL VERSION (Yuri!!! on Ice OP)</a>
+  </li>
+  <li>
+      <a href="http://farpras.github.io/files/music/Keijo_ED.zip">Keijo!!!!!!!! - Fantas/HIP Girlfriends! (Keijo!!!!!!!! ED)</a>
+  </li>
+</ul>
+
+<p style="margin-left: 20px;">
+  &copy; (<script language="JavaScript" type="text/javascript">
+        now = new Date
+        theYear=now.getYear()
+        if (theYear < 1900)
+        theYear=theYear+1900
+        document.write(theYear)
+    </script>) farpras - <a href="http://twitter.com/farpras">Twitter</a> - Email: <a href="mailto:farpras28@outlook.com">farpras28@outlook.com</a>
+</p>
+
+</body>
+</html>
+
