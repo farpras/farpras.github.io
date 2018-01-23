@@ -11,6 +11,7 @@ Quotation[7] = "\"Until we extend our circle of compassion to all living beings,
 Quotation[8] = "\"The creative adult is the child who survived.\"<br />- Anonymous";
 Quotation[9] = "\"Fake LOVE is worse than real HATE.\"<br />- Anonymous";
 Quotation[10] = "\"Human is the only creature who needs money to stay alive.\"<br />- Anonymous";
+Quotation[11] = "\"The only way to stop a bad guy with a gun is a good guy with a gun.\"<br />- Anonymous";
 
 var Q = Quotation.length;
 var whichQuotation=Math.round(Math.random()*(Q-1));
