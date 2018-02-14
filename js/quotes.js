@@ -12,6 +12,14 @@ Quotation[8] = "\"The creative adult is the child who survived.\"<br />- Anonymo
 Quotation[9] = "\"Fake LOVE is worse than real HATE.\"<br />- Anonymous";
 Quotation[10] = "\"Human is the only creature who needs money to stay alive.\"<br />- Anonymous";
 Quotation[11] = "\"The only way to stop a bad guy with a gun is a good guy with a gun.\"<br />- Anonymous";
+Quotation[12] = "\"If you can't explain it simply, you don't understand it well enough.\"<br />- Albert Einstein";
+Quotation[13] = "\"Think realistic, Dream the impossible.\"<br />- Anonymous";
+Quotation[14] = "\"Don't stop until your dreams become your biography.\"<br />- Anonymous";
+Quotation[15] = "\"Human beings are crowded like animals, into farms called cities. There's no overpopulation on this planet.\"<br />- Anonymous";
+Quotation[16] = "\"I look both ways before crossing a ONE WAY street. That's how much faith I have left in humanity.\"<br />- Tom Hardy";
+Quotation[17] = "\"Life lesson: If something cost $1,000, and it is on sale for $750, and then you decide to buy it, you did not save $250. You spent $750.\"<br />- @ValaAfshar (Twitter)";
+Quotation[18] = "\"The rich and powerful piss on us and the media tells us it's raining.\"<br />- Anonymous";
+Quotation[19] = "\"Once you stop learning, you start dying.\"<br />- Albert Einstein";
 
 var Q = Quotation.length;
 var whichQuotation=Math.round(Math.random()*(Q-1));
