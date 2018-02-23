@@ -20,6 +20,10 @@ Quotation[16] = "\"I look both ways before crossing a ONE WAY street. That's how
 Quotation[17] = "\"Life lesson: If something cost $1,000, and it is on sale for $750, and then you decide to buy it, you did not save $250. You spent $750.\"<br />- @ValaAfshar (Twitter)";
 Quotation[18] = "\"The rich and powerful piss on us and the media tells us it's raining.\"<br />- Anonymous";
 Quotation[19] = "\"Once you stop learning, you start dying.\"<br />- Albert Einstein";
+Quotation[20] = "\"Politicians don't want an intelligent population because people who can think critically can't be ruled.\"<br />- Anonymous";
+Quotation[21] = "\"Sometimes people don't want to hear the truth because they don't want their illusions destroyed.\"<br />- Friedrich Nietzsche";
+Quotation[22] = "\"A lot of people don't struggle with depression, they struggle with the reality we live in.\"<br />- Keanu Reeves";
+Quotation[23] = "\"Stay away from negative people. They have a problem for every solution.\"<br />- Albert Einstein";
 
 var Q = Quotation.length;
 var whichQuotation=Math.round(Math.random()*(Q-1));
