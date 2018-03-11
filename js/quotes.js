@@ -24,6 +24,13 @@ Quotation[20] = "\"Politicians don't want an intelligent population because peop
 Quotation[21] = "\"Sometimes people don't want to hear the truth because they don't want their illusions destroyed.\"<br />- Friedrich Nietzsche";
 Quotation[22] = "\"A lot of people don't struggle with depression, they struggle with the reality we live in.\"<br />- Keanu Reeves";
 Quotation[23] = "\"Stay away from negative people. They have a problem for every solution.\"<br />- Albert Einstein";
+Quotation[24] = "\"Crocodiles are easy. They try to kill and eat you. People are harder. Sometimes they pretend to be your friend first.\"<br />- Steve Irwin";
+Quotation[25] = "\"The more you know. The dumber you sound to stupid people.\"<br />- Anonymous";
+Quotation[26] = "\"Real eyes realize real lies.\"<br />- Anonymous";
+Quotation[27] = "\"Childhood is when you idolize Batman. Adulthood is when you realize the Joker makes more sense.\"<br />- Anonymous";
+Quotation[28] = "\"Everyone you meet always asks if you have a career, are married, or own a house as if life was some kind of grocery list. But no one ever asks you if you are happy.\"<br />- Heath Ledger";
+Quotation[29] = "\"The biggest communication problem is we don't listen to understand. We listen to reply.\"<br />- Anonymous";
+Quotation[30] = "\"Society has become so fake that the truth actually bothers people.\"<br />- Anonymous";
 
 var Q = Quotation.length;
 var whichQuotation=Math.round(Math.random()*(Q-1));
