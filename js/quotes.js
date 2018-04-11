@@ -31,6 +31,8 @@ Quotation[27] = "\"Childhood is when you idolize Batman. Adulthood is when you r
 Quotation[28] = "\"Everyone you meet always asks if you have a career, are married, or own a house as if life was some kind of grocery list. But no one ever asks you if you are happy.\"<br />- Heath Ledger";
 Quotation[29] = "\"The biggest communication problem is we don't listen to understand. We listen to reply.\"<br />- Anonymous";
 Quotation[30] = "\"Society has become so fake that the truth actually bothers people.\"<br />- Anonymous";
+Quotation[31] = "\"Mr. Bean taught me one thing in life. Enjoy your own company instead of expecting someone else to make you happy.\"<br />- Anonymous";
+Quotation[32] = "\"No one is more hated than he who speaks the truth.\"<br />- Plato";
 
 var Q = Quotation.length;
 var whichQuotation=Math.round(Math.random()*(Q-1));
