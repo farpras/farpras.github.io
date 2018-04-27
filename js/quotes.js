@@ -33,6 +33,7 @@ Quotation[29] = "\"The biggest communication problem is we don't listen to under
 Quotation[30] = "\"Society has become so fake that the truth actually bothers people.\"<br />- Anonymous";
 Quotation[31] = "\"Mr. Bean taught me one thing in life. Enjoy your own company instead of expecting someone else to make you happy.\"<br />- Anonymous";
 Quotation[32] = "\"No one is more hated than he who speaks the truth.\"<br />- Plato";
+Quotation[33] = "\"The truth is, everyone is going to hurt you. You just got to find the ones worth suffering for.\"<br />- Bob Marley";
 
 var Q = Quotation.length;
 var whichQuotation=Math.round(Math.random()*(Q-1));
