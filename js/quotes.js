@@ -66,6 +66,7 @@ Quotation[32] =
 Quotation[33] =
   '"The truth is, everyone is going to hurt you. You just got to find the ones worth suffering for."<br />- Bob Marley';
 Quotation[34] = '"The problem is not to find the answer, it\'s to face the answer."<br />- Terrence McKenna';
+Quotation[35] = '"Traps wear high heels and are highly immobile."<br />- Harald Baldr (YouTube)';
 
 var Q = Quotation.length;
 var whichQuotation=Math.round(Math.random()*(Q-1));
