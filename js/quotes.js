@@ -72,6 +72,8 @@ Quotation[34] =
   '"The problem is not to find the answer, it\'s to face the answer."<br />- Terrence McKenna';
 Quotation[35] =
   '"Traps wear high heels and are highly immobile."<br />- Harald Baldr (YouTube)';
+Quotation[36] =
+  '"Hummingbirds are the sharks of the sky."<br />- CaptainSparklez (YouTube)';
 
 var Q = Quotation.length;
 var whichQuotation=Math.round(Math.random()*(Q-1));
