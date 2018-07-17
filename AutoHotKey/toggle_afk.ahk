@@ -8,5 +8,6 @@ F8::
      While Toggle{
         Click, right
         Send a
+        sleep 100
     }
 return
