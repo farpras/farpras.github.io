@@ -74,6 +74,8 @@ Quotation[35] =
   '"Traps wear high heels and are highly immobile."<br />- Harald Baldr (YouTube)';
 Quotation[36] =
   '"Hummingbirds are the sharks of the sky."<br />- CaptainSparklez (YouTube)';
+Quotation[37] =
+  '"...Nascar. You go around in circles until you have to fix stuff."<br />- Neskimo (Dead by Daylight\'s Review)';
 
 var Q = Quotation.length;
 var whichQuotation=Math.round(Math.random()*(Q-1));
