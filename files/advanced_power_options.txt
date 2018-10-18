@@ -1,0 +1,9 @@
+Power Options advanced settings
+
+Regedit:
+
+Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power
+
+Set:
+HibernateEnabled = (Hex) 1
+CsEnabled = (Hex) 0
