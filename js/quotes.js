@@ -1,4 +1,4 @@
-var Quotation = new Array()
+var Quotation = new Array();
 
 Quotation[0] =
   '"You can love your country without having to love your government!"<br />- Anonymous';
@@ -18,16 +18,14 @@ Quotation[7] =
   '"Until we extend our circle of compassion to all living beings, humanity will not find peace."<br />- Albert Schweitzer';
 Quotation[8] =
   '"The creative adult is the child who survived."<br />- Anonymous';
-Quotation[9] =
-  '"Fake LOVE is worse than real HATE."<br />- Anonymous';
+Quotation[9] = '"Fake LOVE is worse than real HATE."<br />- Anonymous';
 Quotation[10] =
   '"Human is the only creature who needs money to stay alive."<br />- Anonymous';
 Quotation[11] =
   '"The only way to stop a bad guy with a gun is a good guy with a gun."<br />- Anonymous';
 Quotation[12] =
-  '"If you can\'t explain it simply, you don\'t understand it well enough."<br />- Albert Einstein';
-Quotation[13] =
-  '"Think realistic, Dream the impossible."<br />- Anonymous';
+  "\"If you can't explain it simply, you don't understand it well enough.\"<br />- Albert Einstein";
+Quotation[13] = '"Think realistic, Dream the impossible."<br />- Anonymous';
 Quotation[14] =
   '"Don\'t stop until your dreams become your biography."<br />- Anonymous';
 Quotation[15] =
@@ -41,9 +39,9 @@ Quotation[18] =
 Quotation[19] =
   '"Once you stop learning, you start dying."<br />- Albert Einstein';
 Quotation[20] =
-  '"Politicians don\'t want an intelligent population because people who can think critically can\'t be ruled."<br />- Anonymous';
+  "\"Politicians don't want an intelligent population because people who can think critically can't be ruled.\"<br />- Anonymous";
 Quotation[21] =
-  '"Sometimes people don\'t want to hear the truth because they don\'t want their illusions destroyed."<br />- Friedrich Nietzsche';
+  "\"Sometimes people don't want to hear the truth because they don't want their illusions destroyed.\"<br />- Friedrich Nietzsche";
 Quotation[22] =
   '"A lot of people don\'t struggle with depression, they struggle with the reality we live in."<br />- Keanu Reeves';
 Quotation[23] =
@@ -52,8 +50,7 @@ Quotation[24] =
   '"Crocodiles are easy. They try to kill and eat you. People are harder. Sometimes they pretend to be your friend first."<br />- Steve Irwin';
 Quotation[25] =
   '"The more you know. The dumber you sound to stupid people."<br />- Anonymous';
-Quotation[26] =
-  '"Real eyes realize real lies."<br />- Anonymous';
+Quotation[26] = '"Real eyes realize real lies."<br />- Anonymous';
 Quotation[27] =
   '"Childhood is when you idolize Batman. Adulthood is when you realize the Joker makes more sense."<br />- Anonymous';
 Quotation[28] =
@@ -76,12 +73,17 @@ Quotation[36] =
   '"Hummingbirds are the sharks of the sky."<br />- CaptainSparklez (YouTube)';
 Quotation[37] =
   '"...Nascar. You go around in circles until you have to fix stuff."<br />- Neskimo (Dead by Daylight\'s Review)';
+Quotation[38] =
+  '"Strong people don\'t put others down. They lift them up."<br />- Darth Vader';
+Quotation[39] = '"CAT."<br />- Anonymeows';
+Quotation[40] =
+  '"You will be free, the moment you no longer care about what people think about you."<br />- Anonymous';
 
 var Q = Quotation.length;
-var whichQuotation=Math.round(Math.random()*(Q-1));
+var whichQuotation = Math.round(Math.random() * (Q - 1));
 
 function showQuotation() {
-	document.write(Quotation[whichQuotation]);
+  document.write(Quotation[whichQuotation]);
 }
 
 showQuotation();
