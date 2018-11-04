@@ -78,6 +78,10 @@ Quotation[38] =
 Quotation[39] = '"CAT."<br />- Anonymeows';
 Quotation[40] =
   '"You will be free, the moment you no longer care about what people think about you."<br />- Anonymous';
+Quotation[41] =
+  '"Give a man a mask, and he will show you his true face."<br />- Anonymous';
+Quotation[42] =
+  '"Children will play with anyone. Until their parent tells them not to."<br />- Anonymous';
 
 var Q = Quotation.length;
 var whichQuotation = Math.round(Math.random() * (Q - 1));
