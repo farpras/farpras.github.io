@@ -82,6 +82,8 @@ Quotation[41] =
   '"Give a man a mask, and he will show you his true face."<br />- Anonymous';
 Quotation[42] =
   '"Children will play with anyone. Until their parent tells them not to."<br />- Anonymous';
+Quotation[43] =
+  '"I just jump a bunch, and things went well."<br />- CaptainSparklez (YouTube)';
 
 var Q = Quotation.length;
 var whichQuotation = Math.round(Math.random() * (Q - 1));
