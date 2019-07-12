@@ -84,6 +84,8 @@ Quotation[42] =
   '"Children will play with anyone. Until their parent tells them not to."<br />- Anonymous';
 Quotation[43] =
   '"I just jump a bunch, and things went well."<br />- CaptainSparklez (YouTube)';
+Quotation[44] =
+  '"Sincerity is the key to success. Once you learn to fake that, you\'ve got it made."<br />- Quote of REAPER v5.980';
 
 var Q = Quotation.length;
 var whichQuotation = Math.round(Math.random() * (Q - 1));
