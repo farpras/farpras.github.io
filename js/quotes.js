@@ -75,7 +75,7 @@ Quotation[37] =
   '"...Nascar. You go around in circles until you have to fix stuff."<br />- Neskimo (Dead by Daylight\'s Review)';
 Quotation[38] =
   '"Strong people don\'t put others down. They lift them up."<br />- Darth Vader';
-Quotation[39] = '"CAT."<br />- Anonymeows';
+Quotation[39] = '"Meow."<br />- Anonymeows';
 Quotation[40] =
   '"You will be free, the moment you no longer care about what people think about you."<br />- Anonymous';
 Quotation[41] =
@@ -86,6 +86,8 @@ Quotation[43] =
   '"I just jump a bunch, and things went well."<br />- CaptainSparklez (YouTube)';
 Quotation[44] =
   '"Sincerity is the key to success. Once you learn to fake that, you\'ve got it made."<br />- Quote of REAPER v5.980';
+Quotation[45] =
+  '"If you want to go fast, go alone. If you want to go far, go together."<br />- Anonymous';
 
 var Q = Quotation.length;
 var whichQuotation = Math.round(Math.random() * (Q - 1));
