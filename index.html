@@ -1,65 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>ki2naiver</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="initial-scale=1, minimal-ui" />
 
-  <link rel="icon" 
-      type="image/png" 
-      href="img/farpras.png" />
+  <link rel="icon" type="image/png" href="img/farpras.png" />
 
   <link rel="dns-prefetch" href="//fonts.googleapis.com" />
   <link rel="dns-prefetch" href="//code.jquery.com" />
 
-  <link href='//fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700' rel='stylesheet'
+    type='text/css'>
 
   <link rel="stylesheet" href="animate.min.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-<header class="site__header island">
-  <div class="wrap">
-    <span id="animationSandbox" style="display: block;">
-      <img src="img/ori.gif" width="250px" />
-    </span>
-  </div>
-</header>
+  <header class="site__header island">
+    <div class="wrap">
+      <span id="animationSandbox" style="display: block;">
+        <img src="img/ori.gif" width="250px" />
+      </span>
+    </div>
+  </header>
 
-<main class="site__content island" role="content">
-  <div class="wrap">
-    <hr />
-    <p class="meta"><a href="http://commission.farpras.xyz">Commission</a> &middot; <a href="http://music.farpras.xyz">Music</a> &middot; <a href="https://twitter.com/farpras">Twitter</a> &middot; <a href="https://www.youtube.com/user/FarPras">YouTube</a> &middot; <a href="mailto:farpras28@outlook.com">farpras28@outlook.com</a> &middot; <a href="https://github.com/farpras/farpras.github.io/blob/master/js/quotes.js">quotes.js</a></p>
-    <p><small>
-      
-      <script src="js/quotes.js" />
+  <main class="site__content island" role="content">
+    <div class="wrap">
+      <hr />
+      <!-- <p class="meta"><a href="http://commission.farpras.xyz">Commission</a> &middot; <a href="http://music.farpras.xyz">Music</a> &middot; <a href="https://twitter.com/farpras">Twitter</a> &middot; <a href="https://www.youtube.com/user/FarPras">YouTube</a> &middot; <a href="mailto:farpras28@outlook.com">farpras28@outlook.com</a> &middot; <a href="https://github.com/farpras/farpras.github.io/blob/master/js/quotes.js">quotes.js</a></p> -->
+      <p class="meta">Moved to <a href="http://farpras.my.id">http://farpras.my.id</a></p>
+      <p><small>
 
-    </small></p>
-  </div>
-</main>
+          <script src="js/quotes.js" />
 
-<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-<script>
-  function testAnim(x) {
-    $('#animationSandbox').removeClass().addClass(x + ' animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-      $(this).removeClass();
+        </small></p>
+    </div>
+  </main>
+
+  <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script>
+    function testAnim(x) {
+      $('#animationSandbox').removeClass().addClass(x + ' animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+        $(this).removeClass();
+      });
+    };
+
+    $(document).ready(function () {
+      $('.js--triggerAnimation').click(function (e) {
+        e.preventDefault();
+        var anim = $('.js--animations').val();
+        testAnim(anim);
+      });
+
+      $('.js--animations').change(function () {
+        var anim = $(this).val();
+        testAnim(anim);
+      });
     });
-  };
 
-  $(document).ready(function(){
-    $('.js--triggerAnimation').click(function(e){
-      e.preventDefault();
-      var anim = $('.js--animations').val();
-      testAnim(anim);
-    });
-
-    $('.js--animations').change(function(){
-      var anim = $(this).val();
-      testAnim(anim);
-    });
-  });
-
-</script>
+  </script>
 
 </body>
+
 </html>
